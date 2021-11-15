@@ -1,11 +1,13 @@
 base_url = "https://zola-sam.janbaudisch.dev"
 title = "Sam"
 
+default_language = "ja"
+
 compile_sass = true
 
 highlight_code = true
 
-build_search_index = false
+build_search_index = true
 
 check_external_links = true
 
