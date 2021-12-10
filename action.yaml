@@ -4,7 +4,7 @@ author: 'Shaleen Jain'
 inputs:
   zola-version:
     description: 'Zola version'
-    required: true
+    required: false
     default: '0.14.1'
 runs:
   using: 'docker'
