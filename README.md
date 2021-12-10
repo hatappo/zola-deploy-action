@@ -1,3 +1,8 @@
+# This repository is forked only to enable to specify the version of Zola
+  
+  
+  
+  
 # Zola Deploy Action
 
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fshalzz%2Fzola-deploy-action%2Fbadge&style=flat)](https://actions-badge.atrox.dev/shalzz/zola-deploy-action/goto)
