@@ -10,7 +10,7 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   env:
-    zola-version: ${{ inputs.zola-version }}
+    ZOLA_VERSION: ${{ inputs.zola-version }}
 branding:
   icon: 'zap'  
   color: 'green'
