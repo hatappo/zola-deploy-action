@@ -11,12 +11,12 @@ ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 
-ENV ZOLA_VERSION v0.14.1
+ARG zola-version v0.14.1
 
 RUN apt-get update && apt-get install -y wget git
 
 RUN wget -q -O - \
-"https://github.com/hatappo/zola/releases/download/${ZOLA_VERSION}/zola-${ZOLA_VERSION}-x86_64-unknown-linux-gnu.with-ja-and-zh.tar.gz" \
+"https://github.com/hatappo/zola/releases/download/${zola-version}/zola-${zola-version}-x86_64-unknown-linux-gnu.with-ja-and-zh.tar.gz" \
 | tar xzf - -C /usr/local/bin
 
 COPY entrypoint.sh /entrypoint.sh
