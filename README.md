@@ -1,4 +1,4 @@
-# This repository is forked only to enable to specify the version of Zola
+# This repository is forked only to enable to use other Zola binaries which contains ja and zh search indexes.
   
   
   
