@@ -11,7 +11,7 @@ ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
 
-ENV zola-version 0.14.1
+ENV zola-version v0.14.1
 
 RUN apt-get update && apt-get install -y wget git
 

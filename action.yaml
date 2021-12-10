@@ -5,7 +5,7 @@ inputs:
   zola-version:
     description: 'Zola version'
     required: false
-    default: '0.14.1'
+    default: 'v0.14.1'
 runs:
   using: 'docker'
   image: 'Dockerfile'
