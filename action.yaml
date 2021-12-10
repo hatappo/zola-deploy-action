@@ -1,9 +1,16 @@
 name: 'Zola Deploy to Pages'
 description: 'Build and deploy a Zola site to GitHub Pages'
 author: 'Shaleen Jain'
+inputs:
+  ZOLA_VERSION:
+    description: 'Zola version'
+    required: true
+    default: '0.14.1'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  env:
+    ZOLA_VERSION: $INPUT_ZOLA_VERSION
 branding:
   icon: 'zap'  
   color: 'green'
