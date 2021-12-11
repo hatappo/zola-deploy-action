@@ -7,11 +7,7 @@ LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="green"
 
 # Set default locale for the environment
-ENV LC_ALL C.UTF-8
-ENV LANG en_US.UTF-8
-ENV LANGUAGE en_US.UTF-8
-
-ENV ZOLA_VERSION v0.14.1
+ENV LC_ALL=C.UTF-8 LANG=en_US.UTF-8 LANGUAGE=en_US.UTF-8 ZOLA_VERSION=v0.15.1
 
 RUN apt-get update && apt-get install -y wget git
 
